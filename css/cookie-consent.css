@@ -119,7 +119,7 @@
 }
 
 .cookie-switch input[type="checkbox"] {
-  transform: scale(1.35);
+  transform: scale(1.15);
   cursor: pointer;
 }
 
@@ -139,23 +139,35 @@
 
 .btn-primary,
 .btn-secondary {
-  min-width: 155px;
+  min-width: 165px;
   border: none;
-  padding: 0.7rem 0.85rem;
+  padding: 0.7rem 0.7rem;
   font-size: 0.75rem;
   cursor: pointer;
   white-space: nowrap;
   font-weight: 600;
+  color: #f9fafb;
+}
+
+@media (max-width: 600px) {
+  .cookie-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    max-width: 400px;
+  }
 }
 
 .btn-primary {
   background: #1f615b;
-  color: #f9fafb;
 }
 
 .btn-secondary {
   background: #23272e;
-  color: #e5e7eb;
 }
 
 .cookie-footer-text {
