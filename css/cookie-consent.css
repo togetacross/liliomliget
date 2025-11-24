@@ -120,17 +120,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 0.4rem;
+  gap: 0.5rem;
   margin-top: 0.8rem;
 }
 
 .btn-primary,
 .btn-secondary {
-  border-radius: 999px;
-  min-width: 170px;
+  min-width: 155px;
   border: none;
   padding: 0.7rem 0.85rem;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   cursor: pointer;
   white-space: nowrap;
   font-weight: 600;
